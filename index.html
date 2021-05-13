@@ -15,16 +15,76 @@
 	<header class="w3-panel w3-center w3-opacity" style="padding:25px 16px">
   <h1 class="w3-xlarge">Welkom op mijn portfolio website</h1>
   <h1>Avikash Ramdjoe</h1>
-  <div class="w3-padding-32">
-    <div class="w3-bar w3-border">
-      <a href="home.html" class="w3-bar-item w3-button home.html">Eigenschappen, kennis en<br>vaardigheden</a>
-      <a href="bloemen.html" class="w3-bar-item w3-button bloemen.html">Rekenmachine</a>
-      <a href="Mijn eigen onderneming.html" class="w3-bar-item w3-button Mijn eigen onderneming.html">Onderneming</a>
-	  <a href="altijdwerk.html" class="w3-bar-item w3-button altijdwerk.html">Website</a>
-	</div>
+  
   </div>
 	</header>
 	</body>
+	<html lang="en">
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="home.html" class="w3-bar-item w3-button home.html">Eigenschappen, kennis en<br>vaardigheden</a>
+    <a href="Mijn eigen onderneming.html" class="w3-bar-item w3-button Mijn eigen onderneming.html">Onderneming</a>
+	<a href="projectenpagina.html" class="w3-bar-item w3-button projectenpagina.html">Projecten</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+          
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
 	<head>
 		<title>Portfolio Avikash Ramdjoe</title>
 		<style>
@@ -39,6 +99,36 @@
 	padding: 0;
 	}
 	</style>
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding:50px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<button onclick="myFunction()">Dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+	<br>
+	<br>
 	<div class="container">
 	<h3>Dit ben ik</h3>
 	<p>Hoi! Ik ben Avikash Ramdjoe en ik ben 18 jaar oud. Ik woon in Den Haag. Voordat ik naar het mbo ging zat ik op Maris Bohemen.<br>Nu doe ik de opleiding "Software Developer" op het ROC Mondriaan Tinwerf in Den Haag.<br>
@@ -54,7 +144,7 @@
 	</head>
 	<body>
 	<div class="myDiv">
-	<h3>Mijn motivatie voor deze opleiding:</h3>
+	<h3>Mijn motivatie voor deze opleiding</h3>
 	<p>Ik vind het erg leuk om met computers te werken. Mijn interesse ligt bij websites en webshops maken en ik wil daar graag meer over leren en mijn vaardigheden uitbreiden.<br> 
 		Ook streef ik ernaar om een eigen onderneming op te starten. Ik wil eerst een aantal jaar  ervaringen opbouwen en daarna heel graag een onderneming starten.<br>
 		De reden dat ik een eigen onderneming wil starten is omdat het een nieuwe uitdaging is en ik ook vrijheid heel erg belangrijk vind.</p>
@@ -71,9 +161,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	</head>
-	<body>
-	<div class="container">
-	<br>
+<body>
+<div class="container">
+<br>
   <h2>Contact</h2>          
   <table class="table">
     <thead>
