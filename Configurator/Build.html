@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rc</title>
+  <link rel="stylesheet" href="./JS/build.js">
+  <link rel="stylesheet" href="./CSS/build.css">
+</head>
+<!-- parllax Lamborghini Configurator  -->
+<div class="parallax">
+  <div class="parallax__group">
+    <div class="scroll-fill"></div>
+    <div class="parallax__layer parallax__layer--base"></div>
+    <div class="parallax__layer parallax__layer--grass">
+      <div class="grass-cover">
+        <div class="content">
+          <div class="scroll">
+          <h1>Rc Car Configurator</h1>
+          <h2>Body Colour</h2>
+          <ol class="colour-changer__list js-body-colour">
+            <li class="colour-changer__item colour-changer__item--orange js-colour-option">
+              <input type="radio" id="orange" value="Orange" name="bodycolour" checked>
+              <label class="colour-changer__label" for="orange"><span>Orange</span></label>
+            </li>
+            <li class="colour-changer__item colour-changer__item--blue js-colour-option">
+              <input type="radio" id="blue" value="Blue" name="bodycolour">
+              <label class="colour-changer__label" for="blue"><span>Blue</label>
+            </li>
+            <li class="colour-changer__item colour-changer__item--purple js-colour-option">
+              <input type="radio" id="purple" value="Purple" name="bodycolour">
+              <label class="colour-changer__label" for="purple"><span>Purple</span></label>
+            </li>
+          </ol>
+          <h2>Wheel Colour</h2>
+          <ol class="colour-changer__list js-wheel-colour">
+            <li class="colour-changer__item colour-changer__item--silver js-colour-option">
+              <input type="radio" id="silver" value="Silver" name="wheelcolour" checked>
+              <label class="colour-changer__label" for="silver"><span>Silver</span></label>
+            </li>
+            <li class="colour-changer__item colour-changer__item--gunmetal-grey js-colour-option">
+              <input type="radio" id="gunmetalgrey" value="Gunmetal Grey" name="wheelcolour">
+              <label class="colour-changer__label" for="gunmetalgrey"><span>Gunmetal Grey<span></label>
+            </li>
+            <li class="colour-changer__item colour-changer__item--black js-colour-option">
+              <input type="radio" id="black" value="Black" name="wheelcolour">
+              <label class="colour-changer__label " for="black"><span>Black</span></label>
+            </li>
+          </ol>
+          <a href="" class="colour-changer__button js-configure">Configure My Rc Car</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax__layer parallax__layer--mountains"></div>
+    <div class="parallax__layer parallax__layer--road"></div>
+    <div class="parallax__layer parallax__layer--clouds"></div>
+    <div class="parallax__layer parallax__layer--car"></div>
+    <div class="parallax__layer parallax__layer--bg"></div>
+  </div>
+  <div class="clearfix"></div>
+  <div class="base"></div>
+</div>
+<script src="./JS/build.js"></script>
+</body>
+</html>
