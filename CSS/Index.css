@@ -1,0 +1,27 @@
+h1 {text-align: center;}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+body {
+padding:50px;
+background-color: white;
+color: black;
+font-size: 25px;
+}
+
+.dark-mode {
+background-color: black;
+color: white;
+}
+.mySlides{ display: none}
+
+body {
+font-family: "Lato", sans-serif;
+background: #00FFFF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
