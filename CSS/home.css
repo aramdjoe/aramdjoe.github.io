@@ -7,3 +7,9 @@ border-collapse: collapse;
 body {
 background: lightblue;  
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    }
+    .mySlides{ display: none}

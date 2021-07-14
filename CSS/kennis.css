@@ -7,3 +7,10 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    }
+    .mySlides{ display: none}
+    
