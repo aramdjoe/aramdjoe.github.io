@@ -14,3 +14,16 @@ background: lightblue;
     }
     .mySlides{ display: none}
 
+    <style>
+    .browser > h2, p {
+      margin: 4px;
+      font-size: 90%;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: white;
+      color: black;
+    }
+    </style>
